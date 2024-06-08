@@ -32,7 +32,7 @@ const presenceCmds = Object.keys(commandHash)
   .map((x) => `/${x}`);
 
 // commands to offer spreadsheet autocomplete for
-const sheetAutoCmds = [];
+const sheetAutoCmds: string[] = [];
 
 // commands do not defer/suggestion etc. instead provide a modal for further input
 const modalCmds: string[] = [];
