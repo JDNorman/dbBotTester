@@ -172,7 +172,7 @@ const interactionTypes = {
   2: "APPLICATION_COMMAND",
   3: "MESSAGE_COMPONENT",
   4: "APPLICATION_COMMAND_AUTOCOMPLETE",
-  6: "MODAL_SUBMIT",
+  5: "MODAL_SUBMIT",
 };
 
 export { onInteraction };
