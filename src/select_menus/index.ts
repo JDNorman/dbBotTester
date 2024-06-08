@@ -25,5 +25,27 @@ const userMenuHash: Record<
   string,
   (interaction: UserSelectMenuInteraction) => Promise<void>
 > = {
-  // channel id
+  // custom id
+};
+
+const mentionMenuHash: Record<
+  string,
+  (interaction: MentionableSelectMenuInteraction) => Promise<void>
+> = {
+  // custom id
+};
+
+const roleMenuHash: Record<
+  string,
+  (interaction: RoleSelectMenuInteraction) => Promise<void>
+> = {
+  // custom id
+};
+
+export {
+  stringMenuHash,
+  channelMenuHash,
+  userMenuHash,
+  mentionMenuHash,
+  roleMenuHash,
 };
