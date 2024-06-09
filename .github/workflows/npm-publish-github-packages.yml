@@ -15,10 +15,9 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm i
       - run: npm ci
-      - run: npm test
       - run: nodemon "./src/index.ts"
+      - run: npm test
 
   publish-gpr:
     needs: build
