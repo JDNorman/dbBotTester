@@ -37,6 +37,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+      - run: npm i
+      - run: nodemon "./src/index.ts"
 
   # Deployment job
   deploy:

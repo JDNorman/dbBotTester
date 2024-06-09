@@ -21,5 +21,8 @@
     "stream": "^0.0.2",
     "util": "^0.12.5",
     "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11"
   }
 }
